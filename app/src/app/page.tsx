@@ -107,7 +107,7 @@ export default function Component() {
             <Button onClick={handleJoinRoom}>Join Room</Button>
           </div>
           <ScrollArea
-            className="h-[400px] p-4 border rounded-md"
+            className="h-min p-4 border rounded-md"
             ref={scrollAreaRef}
           >
             {messages.map((msg, index) => (
