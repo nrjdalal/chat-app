@@ -7,7 +7,8 @@ import { Input } from '@/components/ui/input'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
-const SOCKET_SERVER_URL = 'http://localhost:4000'
+const SOCKET_SERVER_URL =
+  'https://lssowwgso8gg4so844g8gswk.43.204.78.187.sslip.io'
 
 type Message = {
   user: string
